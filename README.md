@@ -23,6 +23,7 @@ edit your (mission file)/description.ext
 
 Add at the top of the file
 ```
-#include "extras\custom_loot\Configs\config.hpp"
+#include "extras\custom_loot\Configs\CfgBuildingLoot.hpp"
+#include "extras\custom_loot\Configs\CfgLootSmall.hpp"
 #include "extras\custom_loot\Configs\cfgLoot.hpp"
 ```
