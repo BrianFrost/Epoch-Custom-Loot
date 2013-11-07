@@ -27,3 +27,14 @@ Add at the top of the file
 #include "extras\custom_loot\Configs\CfgLootSmall.hpp"
 #include "extras\custom_loot\Configs\cfgLoot.hpp"
 ```
+
+Also u will need to mission fix the following in your compiles.sqf
+```
+player_spawnCheck =         compile preprocessFileLineNumbers "extras\custom_loot\compile\player_spawnCheck.sqf";
+building_spawnLoot =        compile preprocessFileLineNumbers "extras\custom_loot\compile\building_spawnLoot.sqf";
+building_spawnZombies =        compile preprocessFileLineNumbers "extras\custom_loot\compile\building_spawnZombies.sqf";
+zombie_generate =             compile preprocessFileLineNumbers "extras\custom_loot\compile\zombie_generate.sqf";            //Server compile, used for loiter behaviour
+wild_spawnZombies =         compile preprocessFileLineNumbers "extras\custom_loot\compile\wild_spawnZombies.sqf";            //Server compile, used for loiter behaviour
+spawn_loot =                compile preprocessFileLineNumbers "extras\custom_loot\compile\spawn_loot.sqf";
+spawn_loot_small =                compile preprocessFileLineNumbers "extras\custom_loot\compile\spawn_loot_small.sqf";
+```
