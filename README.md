@@ -1,6 +1,8 @@
 Credits
 =================
-AVendettaForYou.. @ http://opendayz.net/threads/tutorial-custom-loot-tables-and-adjusting-spawn-rates.11589/
+AVendettaForYou.. @ http://opendayz.net/threads/tutorial-custom-loot-tables-and-adjusting-spawn-rates.11589
+
+
 All the Epoch Devs for making the mod  @ https://github.com/vbawol/DayZ-Epoch
 
 
