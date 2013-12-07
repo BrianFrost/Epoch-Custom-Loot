@@ -25,7 +25,7 @@ Add at the top of the file
 ```
 #include "extras\custom_loot\Configs\CfgBuildingLoot.hpp"
 #include "extras\custom_loot\Configs\CfgLootSmall.hpp"
-#include "extras\custom_loot\Configs\cfgLoot.hpp"
+#include "extras\custom_loot\Configs\CfgLoot.hpp"
 ```
 
 Also u will need to mission fix the following in your compiles.sqf

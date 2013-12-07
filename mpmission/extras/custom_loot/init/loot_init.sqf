@@ -104,4 +104,4 @@ for "_i" from 0 to (count (missionConfigFile >> "CfgBuildingLoot") - 1) do {
 			dayz_LootBuildings set [count dayz_LootBuildings, configName _type];
 		};
 	};
-};
+}; 

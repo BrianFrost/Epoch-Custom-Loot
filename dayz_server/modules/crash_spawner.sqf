@@ -74,7 +74,7 @@ if (_spawnRoll <= _spawnChance) then {
 		_crash setvariable ["fadeFire",_fadeFire,true];
 	};
 	
-	_config = 		missionconfigFile >> "CfgBuildingLoot" >> _lootTable;
+	_config = 		missionConfigFile >> "CfgBuildingLoot" >> _lootTable;
 	_itemTypes =	[] + getArray (_config >> "itemType");
 	_index =        dayz_CBLBase find toLower(_lootTable);
 	_weights =		dayz_CBLChances select _index;
