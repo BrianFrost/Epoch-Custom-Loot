@@ -1,4 +1,3 @@
-
 private ["_iItem","_iClass","_iPos","_radius","_item","_itemTypes","_index","_weights","_cntWeights","_qty","_max","_tQty","_canType","_mags","_dateNow"];
 
 _iItem = 	_this select 0;
