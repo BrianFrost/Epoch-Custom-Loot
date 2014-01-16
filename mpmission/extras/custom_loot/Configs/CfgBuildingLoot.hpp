@@ -96,7 +96,7 @@ class CfgBuildingLoot {
 			0.02,
 			0.01,
 			0.01
-		};
+		};		
 	};
 	class Office: Default {
 		maxRoaming = 3;
@@ -145,7 +145,7 @@ class CfgBuildingLoot {
 			0.01,
 			0.03,
 			0.01
-		};
+		};	
 		itemTypeSmall[] = {
 			{ "ItemSodaMdew","magazine" },
 			{ "ItemSodaRbull","magazine" },
@@ -157,7 +157,7 @@ class CfgBuildingLoot {
 			{ "ItemFlashlight","weapon" },
 			{ "ItemKnife","weapon" },
 			{ "ItemMatchbox_DZE","weapon" },
-			{ "","generic" },
+			{ "","generic" },			
 			{ "","military" },
 			{ "","trash" },
 			{ "Binocular","weapon" },
@@ -183,7 +183,7 @@ class CfgBuildingLoot {
 			0.16,
 			0.02,
 			0.01
-		};
+		};	
 	};
 	class Industrial: Default {
 		zombieChance = 0.4;
@@ -321,7 +321,7 @@ class CfgBuildingLoot {
 			{ "ItemJerrycan","magazine" },
 			{ "","generic" },
 			{ "farmweapons","cfglootweapon" },
-			{ "","trash" },
+			{ "","trash" },			
 			{ "PartPlankPack","magazine" },
 			{ "WeaponHolder_ItemHatchet_DZE","object" },
 			{ "ItemFuelBarrelEmpty","magazine"},
@@ -823,7 +823,7 @@ class CfgBuildingLoot {
 			0.4,
 			0.5
 		};
-	};
+	};	
 	class Church: Residential {
 		minRoaming = 1;
 		maxRoaming = 3;
@@ -1123,7 +1123,7 @@ class CfgBuildingLoot {
 	}; // Qty: 8
 	class Land_Mil_Barracks_L: Military {
 		lootPos[] = {};
-	}; // Qty: 5
+	}; // Qty: 5 
 
 	class Land_Barn_W_02: Farm {
 		lootPos[] = {{3.16504,5.56543,-2.31409},{3.35938,-0.152344,-2.31305},{2.53613,-5.89453,-2.30957},{-2.94629,-5.01367,-2.31006},{-2.84375,0.212891,-2.31183},{-5.63281,4.8291,-2.31363}};
@@ -1140,14 +1140,14 @@ class CfgBuildingLoot {
 	}; // Qty: 103
 	class Land_Shed_W4: Residential {
 		maxRoaming = 3;
-		lootPosZombie[] = {{-1.36035,-5.73657,-0.56669},{0.554688,-5.27881,-0.569374}};
+		lootPosZombie[] = {{-1.36035,-5.73657,-0.56669},{0.554688,-5.27881,-0.569374}};	
 	}; // Qty: 172
 
 	class Land_HouseV_3I1: Residential {
 		maxRoaming = 3;
 		lootPosZombie[] = {{5.18896,-2.26819,-1.60805},{-5.49658,-3.26038,-1.8894}};
 	}; // Qty: 103
-
+	
 	class Land_HouseV_1T: Residential {
 		maxRoaming = 3;
 		lootPosZombie[] = {{-4.91797,6.75098,-2.32535},{3.49487,-1.74414,-2.40549}};
@@ -1193,7 +1193,7 @@ class CfgBuildingLoot {
 		lootPos[] = {{1.18213,-1.65039,-1.17793},{0.24707,0.799316,-1.17803}};
 	}; // Qty: 1
 	class MASH_EP1: MASH{};
-
+		
 	class UH1Wreck_DZ: Military {
 		zombieClass[] = {"z_soldier_pilot","z_soldier_heavy"};
 		zombieChance = 0.3;
@@ -1263,7 +1263,7 @@ class CfgBuildingLoot {
 		lootPosSmall[] = {{2.8606,4.33081,-4.65974},{-0.222778,4.34985,-4.65713}};
 	};
 	class Land_HouseV_3I2: HouseRoaming{};
-
+	
 	class Land_HouseBlock_A1: HouseRoaming{};
 	class Land_HouseBlock_A1_2: HouseRoaming{};
 	class Land_HouseBlock_A2: HouseRoaming{};
@@ -1303,17 +1303,17 @@ class CfgBuildingLoot {
 		maxRoaming = 8;
 	}; // Qty: 3
 	class Land_Shed_W02: FarmRoaming {}; // Qty: 213
-	//allow
+	//allow 
 	class Grave: HouseRoaming {
 		maxRoaming = 3;
 	};
-	class GraveCross1: HouseRoaming {
+	class GraveCross1: HouseRoaming {	
 		maxRoaming = 2;
 	};
-	class GraveCross2: HouseRoaming {
+	class GraveCross2: HouseRoaming {	
 		maxRoaming = 2;
 	};
-	class GraveCrossHelmet: Military {
+	class GraveCrossHelmet: Military {	
 		maxRoaming = 4;
 	};
 
@@ -1330,7 +1330,7 @@ class CfgBuildingLoot {
 	};
 
 	class Land_HouseV_3I3: HouseRoaming{
-		lootPosZombie[] = {{0.915527,3.53455,-1.24826},{4.38135,3.39111,-1.36197}};
+		lootPosZombie[] = {{0.915527,3.53455,-1.24826},{4.38135,3.39111,-1.36197}};				
 	};
 
 	class Land_Mil_Guardhouse: Military {
@@ -1340,7 +1340,7 @@ class CfgBuildingLoot {
 	};
 
 	// DAYZ AMP More buildings
-	class Mass_grave_DZ: HouseRoaming {
+	class Mass_grave_DZ: HouseRoaming {	
 		zombieClass[] = {"zZombie_Base","z_hunter","z_hunter","z_hunter","z_villager1","z_villager2","z_villager3","z_doctor","z_soldier_pilot","z_soldier_heavy"};
 		minRoaming = 8;
 		maxRoaming = 16;
@@ -1394,12 +1394,12 @@ class CfgBuildingLoot {
 	};
 	class Land_Ind_PowerStation_EP1: Industrial {
 		lootPos[] = {{4.04248,-3.4917,-1.26547},{3.8645,3.5249,-1.28112}};
-	};
+	};	
 	class land_repair_center: Industrial {
 		lootPosZombie[] = {{0.629883,-3.35498,-1.64651},{-2.61719,3.68213,-0.653473}};
 		lootPosSmall[] = {{-2.52832,1.68213,-1.54846}};
-	};
-	class Land_Ind_TankBig: Industrial
+	};	
+	class Land_Ind_TankBig: Industrial 
 	{
 		lootChance = 0.1;
 		lootPosSmall[] = {{-1.2981,3.27441,5.34628},{3.49609,-3.02539,5.34628}};
@@ -1413,7 +1413,7 @@ class CfgBuildingLoot {
 	class Land_A_Mosque_big_addon_EP1: Church {
 		lootPos[] = {{-5.10791,-1.75098,-6.4124},{6.30908,-3.39795,-6.38554},{6.87109,2.81934,-6.38554},{2.14111,-4.38086,-6.35463},{4.86475,4.65576,-6.38554},{-4.72021,-10.5127,-1.15605}};
 	};
-
+	
 	class Land_A_Mosque_big_wall_EP1: Church {
 		lootPos[] = {{2.81543,3.9458,-2.02844},{-4.94531,3.60645,5.18165}};
 	};
@@ -1425,13 +1425,13 @@ class CfgBuildingLoot {
 			{ 6.66406,4.11719,-1.9437 },
 			{ 0.49707,-1.33301,-1.69603 }};
 	};
-
+	
 	class Land_A_Mosque_small_2_EP1: Church
 	{
 		lootPos[] = {
 			{ 1.33496,-0.726074,-2.48535 },
 			{ -0.794922,-1.74414,-2.48538 }};
-	};
+	};	
 	class Land_Mil_Barracks_i_EP1: MilitarySpecial
 	{
 		lootChance = 0.2;
@@ -1459,11 +1459,11 @@ class CfgBuildingLoot {
 		lootPos[] = {{11.7949,4.3147,-5.81439}};
 		lootPosZombie[] = {{-2.13477,6.69116,-4.56909},{5.58887,6.41284,-4.44098}};
 		lootPosSmall[] = {{-1.54785,5.46997,-5.00406},{-2.61816,5.46362,-5.0097}};
-	};
+	};	
 	class Land_Misc_Cargo1Bo_EP1: Industrial {
 		lootPos[] = {{-0.0170898,-0.331421,-1.09225}};
 	};
-
+		
 	class Land_Mil_Barracks_EP1: Military
 	{
 		lootPos[] = {};
@@ -1565,7 +1565,7 @@ class CfgBuildingLoot {
 		maxRoaming = 2;
 		lootPos[] = {};
 	};
-
+	
 	class Land_Ind_Shed_01_EP1: Default
 	{
 		zombieChance = 0.3;
@@ -1616,8 +1616,8 @@ class CfgBuildingLoot {
 			0.078,
 			0.033
 		};
-	};
-
+	}; 
+	
 	class DynamicDebrisMilitary: Default
 	{
 		lootChance = 0.4;
@@ -1748,7 +1748,7 @@ class CfgBuildingLoot {
 			{"DZ_TK_Assault_Pack_EP1","object"}, // 16
 			{"DZ_British_ACU","object"}, // 18
 			{"DZ_CivilBackpack_EP1","object"}, // 24
-			{"DZ_Backpack_EP1","object"}, // 30
+			{"DZ_Backpack_EP1","object"}, // 30		
 			{"DZ_LargeGunBag_EP1","object"}, // 45
 
 			{ "","medical" },
@@ -1891,7 +1891,7 @@ class CfgBuildingLoot {
 		lootPos[] = {{1.01025,4.85181,-1.4815},{3.42773,1.4248,-1.4915},{-1.62939,-4.69336,-1.4815},{-1.56982,3.66333,-1.4915},{2.28418,1.03076,2.2605},{-0.941895,-3.75952,1.16351}};
 		lootPosZombie[] = {{-3.11206,1.50952,-0.596497},{2.39453,4.8396,-0.592795},{1.48633,3.10425,2.2955}};
 		lootPosSmall[] = {{0.615479,4.92847,-0.671498},{2.23071,0.780518,-0.411497},{2.61011,0.823975,-1.0915},{-4.35205,-0.0966797,-1.0515},{-0.5271,-2.93677,-1.4215},{-4.2854,3.09082,-1.4715},{-4.42822,-5.13232,-1.4815},{-0.468018,-3.18481,-0.0414963},{2.96582,1.17114,2.2605},{1.85205,4.83716,1.7605}};
-	};
+	};	
 	class Land_House_K_6_EP1: Residential
 	{
 		lootPos[] = {
@@ -2001,7 +2001,7 @@ class CfgBuildingLoot {
 			{ -3.30566,4.65558,1.54929 },
 			{ -3.77539,2.02087,1.60863 }};
 	};
-
+	
 	class Land_House_L_1_EP1: Residential
 	{
 		lootPos[] = {
@@ -2249,7 +2249,7 @@ class CfgBuildingLoot {
 			{ 0.304749,-0.543213,-0.448339 },
 			{ 0.885254,2.90747,-0.44834 }};
 	};
-
+	
 	class land_housev2_05: Residential
 	{
 		lootPosZombie[] = {{-3.78809,-0.407715,-2.06879},{5.36499,7.90381,-2.08879}};
@@ -2371,7 +2371,7 @@ class CfgBuildingLoot {
 			{-0.506836,-2.2229,0.822979},
 			{-3.93457,2.11401,-2.29981}};
 	};
-
+	
 	class Land_dum_olez_istan2: HouseRoaming{};
 	class Land_dum_olez_istan2_maly2: HouseRoaming{};
 	class land_dum_mesto3_istan: HouseRoaming{};
@@ -2379,8 +2379,8 @@ class CfgBuildingLoot {
 	class land_ind_pec_03a: HouseRoaming{
 		lootPosZombie[] = {{-16.4072,-12.3384,-4.473},{-16.4097,-14.7412,-4.47244},{0.900879,28.8267,-4.48695}};
 	};
-
-
+	
+	
 
 	class land_nasypka: Residential
 	{
@@ -2418,7 +2418,7 @@ class CfgBuildingLoot {
 			{-2.77246,-1.72949,-4.33588},
 			{5.30176,5.76563,-7.28588},
 			{-0.282227,5.89746,-7.28588},
-			{-6.5918,5.96973,-7.28588}};
+			{-6.5918,5.96973,-7.28588}};		
 	};
 	class Land_duala_mini: Residential
 	{
@@ -2503,7 +2503,7 @@ class CfgBuildingLoot {
 		lootPosZombie[] = {{1.48291,-3.28223,-1.85291}};
 		lootPosSmall[] = {{-1.16064,-4.72485,-2.75951}};
 	};
-
+	
 	class Land_leseni2x: Industrial
 	{
 		lootPos[] = {
@@ -2773,7 +2773,7 @@ class CfgBuildingLoot {
 			{-0.236328,-3.16772,-14.7521},
 			{3.05078,-0.838379,-14.7521}};
 	};
-
+	
 	class LAND_Posta : Residential
 	{
 		lootPos[] = {{-17.4678,-9.28809,1.00044},
@@ -2784,7 +2784,7 @@ class CfgBuildingLoot {
 			{13.3633,7.1958,1.00044},
 			{1.56445,8.49707,1.00044}};
 	};
-
+	 
 	// Proving grounds PMC
 	class Land_GeneralStore_01a_PMC : Supermarket
 	{
@@ -2848,7 +2848,7 @@ class CfgBuildingLoot {
 	class land_st_vez: MilitarySpecial {
 		lootPos[] = {{-5.56445,4.23975,-3.31476},{-5.05566,-3.17627,-3.31476},{4.12109,3.92822,2.42732},{-1.73389,2.68896,6.40834},{-4.23584,1.29736,6.40834},{-3.80322,-1.09277,6.40834},{0.430664,1.31787,6.40834},{-2.45166,-2.16748,6.40834},{-0.608398,-0.57666,-11.095},{-2.08691,1.10303,-11.0649},{0.259277,-3.89697,-3.31476},{3.9375,3.30957,-8.50825}};
 	};
-
+	
 	class Land_dulni_bs: Residential {
 		lootPos[] = {{2.76758,2.70068,-1.75205},{2.34668,-1.28564,-1.75205},{-0.478516,-2.64844,-1.75205},{-0.53418,3.11133,-1.75205}};
 	};
